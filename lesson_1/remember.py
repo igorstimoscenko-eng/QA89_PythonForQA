@@ -98,6 +98,5 @@ from_second = my_string[1::2]
 print(from_second)
 my_substring = my_string[1:10:3]
 print(my_substring)
-
 reversed_string = my_string[::-1]
 print(reversed_string)
