@@ -33,3 +33,16 @@ print(first_number)
 #print(is_isr_phone_number("521234567"))
 #print(is_isr_phone_number("05212345a7"))
 #print(is_isr_phone_number(""))
+
+
+def print_substring_reverse(s, start, finish):
+    if s is None or s.strip() == "":
+        print("Wrong args")
+        return
+    if start<0 or finish>=len(s) or start>finish:
+        print("Wrong args")
+        return
+    beginning = s[:start]
+    middle_reverse = s[start:finish+1][::-1]
+    end_reverse = s[finish+1:]
+    print(beginning+middle_reverse+end_reverse)
