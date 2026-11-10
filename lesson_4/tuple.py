@@ -25,7 +25,7 @@ while i<len(my_tuple):
     i+=1
 
 del my_tuple
-print(my_tuple)
+# print(my_tuple)
 
 tuple1 = (1,2,3)
 tuple2 = (4,5,6)
@@ -43,3 +43,24 @@ print(min_element)
 
 sum_of_elements = sum(my_tuple)
 print(sum_of_elements)
+
+my_tuple1 = ()
+print(len(my_tuple1))
+print(sum(my_tuple1))
+# print(max(my_tuple1))
+# print(min(my_tuple1))
+
+original_tuple = (3,1,4,5,9,2,6,5,5,3)
+sorted_tuple = tuple(sorted(original_tuple))
+print('original: ', original_tuple)
+print('sorted: ', sorted_tuple)
+
+sub_tuple = original_tuple[3:7]
+print(sub_tuple)
+
+my_tuple = list(original_tuple)
+print(my_tuple)
+print('original: ', original_tuple)
+
+my_string = ''.join(map(str,original_tuple))
+print(my_string)
