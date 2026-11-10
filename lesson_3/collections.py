@@ -33,3 +33,32 @@ if correct_answers == user_answers:
     print("Correct answers")
 else:
     print("Incorrect answers")
+
+numbers = [12,56,94,6]
+print(max(numbers))
+print(min(numbers))
+print()
+
+res = sorted(numbers)
+print(res)
+print(numbers)
+
+print(sorted(numbers,reverse=True))
+print(sorted(fruits))
+print(sorted(fruits,reverse=True))
+
+word = 'python'
+print(sorted(word))
+result= ''.join(sorted(word))
+print(result)
+
+names = ['Aleks','Kristina','Bob','Tom']
+print(sorted(names))
+print(sorted(names,key=len))
+
+#по алфавиту
+names.sort()
+print(names)
+
+names.sort(key=len)
+print(names)
