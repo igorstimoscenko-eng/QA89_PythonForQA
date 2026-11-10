@@ -8,3 +8,11 @@ books1 = {
     'To kill a mockingbird'
 }
 print(books1)
+
+response = {
+    'statusCode': 'success',
+    'user': {
+        'id':1,
+        'name':'Kris'
+    }
+}
