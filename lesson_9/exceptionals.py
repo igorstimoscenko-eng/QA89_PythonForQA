@@ -1,0 +1,25 @@
+#with open("user.json","r",encoding="utf-8") as file:
+# print(file.read())
+
+# print("Start program")
+# result = 10/0
+# print(result)
+# print("End program")
+
+# def div_int(a,b):
+#     return a/b
+#
+# print("Start program")
+# res = div_int(10,0)
+# print(res)
+# print("End program")
+# print()
+
+#try/except
+print("Start program")
+try:
+    result = 10/0
+    print(result)
+except Exception as e:
+    print("An error occured: ",e)
+print("End program")
